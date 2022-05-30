@@ -1,0 +1,350 @@
+body {
+      padding: 0;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+/* barre de navigation */
+nav {
+      flex-wrap: wrap;
+      background-color: black;
+      color: white;
+      padding: 0 25px;
+}
+
+nav .gauche {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+nav .gauche h2 {
+      padding-top: 5px;
+}
+
+nav .gauche .onglets {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 15px;
+      margin-left: 200px;
+}
+
+nav .gauche .onglets p {
+      margin-left: 20px;
+      cursor: pointer;
+      color: #909191;
+
+}
+
+nav .gauche .onglets p:hover {
+      color: white
+}
+
+/* Fin barre de navigation */
+
+/*Les films */
+
+section .meilleurs-films h2 {
+      color: #fff;
+}
+
+/* tête d'affiche */
+.tete-affiche {
+      flex-wrap: wrap;
+      position: relative;
+      background-size: cover;
+      background-position: center center;
+      color: #fff;
+      object-fit: contain;
+      height: 800px;
+
+}
+
+#contenu-affiche img {
+      position: relative;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 30px;
+      padding-top: 14px;
+      width: 1400px;
+      height: 800px;
+}
+
+.titre-affiche {
+      color: #fff;
+      position: absolute;
+      font-size: 3rem;
+      font-weight: 1800px;
+      padding-bottom: 0.3rem;
+      margin-top: -520px;
+      margin-left: 25px;
+}
+
+.button-affiche {
+      position: absolute;
+      margin-bottom: 10px;
+      margin-left: 50px;
+      margin-top: -220px;
+}
+
+/* Fin tête d'affiche */
+
+
+/* test*/
+.meilleurs-films {
+      color: #fff;
+      margin-left: 25px;
+
+}
+
+
+html {
+      scroll-behavior: smooth;
+}
+
+
+body {
+      margin: 0;
+      background-color: #000;
+      font-family: Arial;
+}
+
+
+.wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1396px);
+      overflow: hidden;
+      scroll-behavior: smooth;
+      margin-right: 820px;
+
+}
+
+.wrapper section {
+      width: 1396px;
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(5, auto);
+      margin: 20px 0px;
+      margin-left: 30px;
+}
+
+.wrapper section .item {
+      position: relative;
+      padding: 2px;
+      transition: 250ms all;
+}
+
+.wrapper section .item:hover {
+      margin: 0 40px;
+      transform: scale(1.2);
+}
+
+
+.wrapper section .item .heading {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      color: #fff;
+}
+
+.wrapper section .item .duration {
+      position: absolute;
+      bottom: 0;
+      left: 20px;
+      color: #fff;
+}
+
+.wrapper section .arrow__btn {
+      position: absolute;
+      color: #fff;
+      text-decoration: none;
+      font-size: 6em;
+      background: black;
+      width: 80px;
+      padding: 20px;
+      text-align: center;
+      z-index: 1;
+}
+
+.wrapper section .left-arrow {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+
+.wrapper section .right-arrow {
+      top: 0;
+      bottom: 0;
+      right: 0;
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+
+img {
+      width: 350px;
+      height: 192px;
+}
+
+/*  modale affiche */
+body {
+      font-family: fantasy;
+      font-size: 20px;
+      line-height: 1.6;
+}
+
+.button {
+      position: absolute;
+      background: red;
+      padding: 1em 1em;
+      color: #fff;
+      border: 20%;
+      margin-bottom: 10px;
+      margin-left: 120px;
+      margin-top: -400px;
+}
+
+
+/* .button:hover {
+      background: #e439ef;
+      cursor: pointer;
+} */
+
+.modal-overlay {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 80%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      margin-top: -10%;
+}
+
+.modal-content {
+      background-color: #f4f4f4;
+      margin: 20% auto;
+      height: 100%;
+      width: 90%;
+      box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+/* 
+.modal-header h2,
+.modal-footer h3 {
+      margin: 0;
+} */
+
+/* .modal-header {
+      background: #1ce;
+      padding: 15px;
+      color: #fff;
+} */
+
+.modal-body {
+      padding: 10px 20px;
+}
+
+/* .modal-footer {
+      background: #1ce;
+      padding: 10px;
+      color: #fff;
+      text-align: center;
+} */
+
+.closeBtn {
+      font-size: 30px;
+      color: black;
+      float: right;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+      color: #e439ef;
+      text-decoration: none;
+      cursor: pointer;
+}
+
+/* modale image */
+/* modal content styles */
+#caroussel1 {
+      max-width: 1400px;
+      width: 90%;
+      display: flex;
+      margin: auto;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 70px 0;
+}
+
+/* modal popup styles */
+.image-modal-popup {
+      position: fixed;
+      overflow: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: rgba(5, 5, 5, 0.8);
+      color: #fff;
+      animation: 500ms fadeIn;
+      display: none;
+}
+
+@keyframes fadeIn {
+      from {
+            opacity: 0;
+      }
+
+      to {
+            opacity: 1;
+      }
+}
+
+.image-modal-popup .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+      margin-top: 130px;
+      position: relative;
+      margin-left: 30px;
+}
+
+.image-modal-popup .description {
+      text-align: center;
+}
+
+.image-modal-popup img {
+      width: 80%;
+      max-height: calc(100vh - 150px);
+      margin-bottom: 10px;
+      cursor: pointer;
+}
+
+.image-modal-popup span {
+      position: absolute;
+      top: 0;
+      right: 110px;
+      font-size: 4rem;
+      color: red;
+      cursor: pointer;
+}
+
+.image-modal-popup p {
+      margin: 5px auto;
+      font-size: 1.1rem;
+}
+
+.image-modal-popup a {
+      margin-bottom: 5px;
+      display: inline-block;
+      color: #222;
+      font-weight: 500;
+      text-decoration: none;
+      background: #fff;
+      margin: 10px 10px;
+      padding: 10px 15px;
+      border-radius: 6px;
+}
