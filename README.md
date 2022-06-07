@@ -14,6 +14,19 @@ https://github.com/Johannba/projet6.git
 3 - Ouverture du site :
 index.html
 
+4 - Intallation des dépendances: 
+`pip install - r requirements.txt`
+
+Creer un environnement virtuel:
+
+Depuis windows/mac/linux: python3 -m venv env
+
+Activer l'environnement:
+
+Depuis windows: env\Scripts\activate.bat
+
+Depuis mac/linux: source env/bin/activate
+
 
 Auteurs :
 
