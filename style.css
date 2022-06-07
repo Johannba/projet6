@@ -73,7 +73,6 @@ section .meilleurs-films h2 {
       color: #fff;
       position: absolute;
       font-size: 3rem;
-      font-weight: 1800px;
       padding-bottom: 0.3rem;
       margin-top: -520px;
       margin-left: 25px;
@@ -89,7 +88,7 @@ section .meilleurs-films h2 {
 /* Fin tête d'affiche */
 
 
-/* test*/
+/* Caroussel*/
 .meilleurs-films {
       color: #fff;
       margin-left: 25px;
@@ -114,7 +113,7 @@ body {
       grid-template-columns: repeat(4, 1396px);
       overflow: hidden;
       scroll-behavior: smooth;
-      margin-right: 820px;
+      margin-right: 260px;
 
 }
 
@@ -122,7 +121,7 @@ body {
       width: 1396px;
       position: relative;
       display: grid;
-      grid-template-columns: repeat(5, auto);
+      grid-template-columns: repeat(4, auto);
       margin: 20px 0px;
       margin-left: 30px;
 }
@@ -196,7 +195,6 @@ body {
       background: red;
       padding: 1em 1em;
       color: #fff;
-      border: 20%;
       margin-bottom: 10px;
       margin-left: 120px;
       margin-top: -400px;
@@ -229,17 +227,18 @@ body {
       box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
 }
 
-/* 
+
 .modal-header h2,
 .modal-footer h3 {
       margin: 0;
-} */
+}
 
-/* .modal-header {
+/* 
+.modal-header {
       background: #1ce;
       padding: 15px;
       color: #fff;
-} */
+}*/
 
 .modal-body {
       padding: 10px 20px;
@@ -265,9 +264,9 @@ body {
       cursor: pointer;
 }
 
-/* modale image */
+/* modale affiche */
 /* modal content styles */
-#caroussel1 {
+/* #caroussel1 {
       max-width: 1400px;
       width: 90%;
       display: flex;
@@ -275,7 +274,7 @@ body {
       flex-wrap: wrap;
       justify-content: space-between;
       padding: 70px 0;
-}
+} */
 
 /* modal popup styles */
 .image-modal-popup {
@@ -348,3 +347,5 @@ body {
       padding: 10px 15px;
       border-radius: 6px;
 }
+
+/* Fin modal popup styles */
