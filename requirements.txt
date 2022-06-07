@@ -1,24 +1,12 @@
-PROJET 6 : Développer une interface utilisateur pour une application web Python
-
-Création d'une interface web utilisant l'API "OCMovies-API" permettant d'afficher le meilleur film selon le score du site IMDB, Une catégorie des sept meilleurs films ainsi que trois autres catégories. Lors d'un clic sur un film, une fenêtre modale contenant l'image du film et ses informations doit s'afficher.
-
-
-
-Installation
-1 - L'installation et le fonctionnement de l'API "OCMovies-API" est disponible sur le lien github suivant :
-https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
-
-2 - Copier dans un répertoire les éléments disponibles sur le lien github suivant :
-https://github.com/Johannba/projet6.git
-
-3 - Ouverture du site :
-index.html
-
-
-Auteurs :
-
-Johann Bacha
-
-Remerciements :
-
-Merci à Ranga Gonnage pour ses conseils, ça pédagogie et sa diplomatie.
+asgiref==3.3.1
+Django==3.1.4
+django-cors-headers==3.6.0
+django-extensions==3.1.0
+django-filter==2.4.0
+django-rest-framework==0.1.0
+django-tqdm==1.0.0
+djangorestframework==3.12.2
+Markdown==3.3.3
+pytz==2020.4
+sqlparse==0.4.1
+tqdm==4.54.1
